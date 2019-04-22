@@ -1,0 +1,244 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+html, body {
+  height: 100%;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+span {
+  color: #880000;
+}
+
+.header-top {
+  position: fixed;
+  width: 100%;
+  text-align: center;
+  padding-top: 50px;
+  margin: 0 auto;
+  z-index: 10;
+}
+
+.header-top a {
+  font-family: serif;
+  font-weight: bold;
+  padding: 20px 25px;
+  font-size: 12px;
+  transition: all 0.5s;
+}
+
+.header-top a:hover {
+  cursor: pointer;
+}
+
+.tag {
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+.tag:hover {
+  background-color: rgba(255, 255, 255, 1);
+  color: #880000;
+}
+
+.Select-tag {
+  background-color: #880000;
+  color: white;
+}
+
+.main-wrapper {
+  padding-top: 200px;
+  background-repeat: no-repeat;
+  background-image: url("https://static.wixstatic.com/media/403c3a_50f735859c6244088e51711918d86601~mv2_d_2500_1663_s_2.jpg/v1/fill/w_1920,h_1277,al_c,q_85,usm_0.66_1.00_0.01/403c3a_50f735859c6244088e51711918d86601~mv2_d_2500_1663_s_2.webp");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+  height:3400px;
+  z-index: 1;
+}
+
+.main-container {
+  margin: 0 auto;
+  height: 3050px;
+  width: 750px;
+  background-image: url("008-cover-book0.png");
+}
+
+.main-container h1 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  padding: 60px 0 60px 0;
+  color: #880000;
+}
+
+.container {
+  margin:0 auto;
+  width: 90%;
+}
+.image-wrapper{
+  text-align:center;
+}
+.dinner-image {
+  height: 175px;
+  width: 93%;
+  border: 10px ridge white;
+
+}
+.menu-list-wrapper {
+  margin:0 auto;
+  width: 90%;
+  margin-bottom:50px;
+}
+.menu-list-one {
+  margin:0 auto;
+  width: 90%;
+  margin-bottom:50px;
+}
+.glass-image{
+  vertical-align: middle;
+  width:10px;
+  height:40px;
+}
+.bottle-image{
+  vertical-align: middle;
+  width:30px;
+  height:40px;
+}
+.bottle2-image{
+  vertical-align: middle;
+  width:10px;
+  height:40px;
+}
+.list-top {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.list-top p {
+  font-size: 20px;
+  padding: 20px 0 5px 0;
+}
+
+.list-wrapper {
+  display: flex;
+  margin-top: 20px;
+  line-height: 40px;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: bold;
+  padding-bottom: 15px;
+  border-bottom: 1px solid rgb(167, 173, 173);
+}
+.list-one{
+text-align-last: justify;
+line-height:40px;
+width:100%;
+padding-top:15px;
+}
+
+.list-left {
+  width: 80%;
+}
+
+.list-right {
+  text-align: right;
+  width: 20%;
+}
+
+#Note{
+  margin-top:20px;
+  text-align:right;
+}
+
+.btn-wrapper {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
+.btn1 {
+  height: 30px;
+  width: 48%;
+  margin-right: 4%;
+  background-color: #880000;
+  color: rgba(255, 255, 255, 1);
+  font-weight: bold;
+}
+
+.btn2 {
+  height: 30px;
+  width: 48%;
+  background-color: #880000;
+  color: rgba(255, 255, 255, 1);
+  font-weight: bold;
+}
+
+.btn1, .btn2:hover {
+  cursor: pointer;
+}
+
+footer {
+  height: 70px;
+  width: 100%;
+  background-color: #24190E;
+  position: fixed;
+  bottom: 0;
+}
+
+.footer-logo {
+  font-size: 16px;
+  line-height: 70px;
+  padding-left: 20%;
+  color: white;
+}
